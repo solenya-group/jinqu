@@ -1,8 +1,8 @@
 import { expect } from 'chai';
 import 'mocha';
-import { ArrayQueryProvider, IQuery } from '..';
+import '..';
 import { Order, orders, products, ExtendedOrder } from './fixture';
-import { QueryPart, PartArgument } from '../lib/query-part';
+import { IQuery } from '../lib/types';
 
 describe('Jinqu should be able to use', () => {
 
